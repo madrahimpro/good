@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(179, 179, 47);
+}
+
+.container {
+    width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
+
+.flex {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.item {
+    background-color: white;
+    width: 450px;
+    height: 580px;
+    overflow: auto;
+}
+
+
+
+
+
+
+.item-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item__heading {
+    font-family: "Roboto";
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.item__img {
+    margin-right: 15px;
+}
+
+.item__li {
+    width: 350px;
+    background-color: rgb(222, 228, 228);
+    list-style: none;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 20px;
+    transform: translate(-50px, -10px);
+}
+
+.visa__img {
+    margin: 10px 20px;
+   
+}
+
+.password {
+    margin-left: 30px;
+    margin-top: -15px;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.tugash__muddati {
+    font-size: 18px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+
+.listtt {
+    width: 600px;
+    height: 580px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 2px;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+}
+.human{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listtt__heading {
+    margin-left: 20px;
+}
+
+.women {
+    display: flex;
+    margin-top: 15px;
+}
+
+.human__p {
+    margin-right: 22px;
+}
+
+.women__img {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.women__h2 {
+    font-size: 22px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    font-weight: 600; 
+    margin-top: 0;
+}
+
+.women__sup {
+    margin-left: 50px;
+    margin-top: 0;
+    color: rgb(22, 53, 53);
+    font-style: bold;
+}
+.women__img:hover{
+    color: blue;
+    background-color: rgb(34, 245, 7);
+}
+.women__sup:hover{
+    color: blue ;
+    
+}
+.human__p:hover{
+    color: blue;
+}
+.item__img:hover{
+  background-color: blue;
+}
